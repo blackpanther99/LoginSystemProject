@@ -18,4 +18,8 @@ public class studentRegister extends AppCompatActivity {
         startActivity(teacherLogin);
 
     }
+    public void StudentRegister(View view) {
+        Intent studentRegister = new Intent(studentRegister.this, studentRegistration.class);
+        startActivity(studentRegister);
+    }
 }

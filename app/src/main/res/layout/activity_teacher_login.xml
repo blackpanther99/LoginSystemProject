@@ -17,7 +17,7 @@
 
     <EditText
 
-        android:id="@+id/editText"
+        android:id="@+id/LoginEmailTeacher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -32,24 +32,24 @@
 
     <EditText
 
-        android:id="@+id/editText2"
+        android:id="@+id/LoginPasswordTeacher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText"
-        android:layout_alignRight="@+id/editText"
-        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/LoginEmailTeacher"
+        android:layout_alignRight="@+id/LoginEmailTeacher"
+        android:layout_below="@+id/LoginEmailTeacher"
         android:layout_marginTop="19dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ButtonLoginTeacher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/LoginPasswordTeacher"
+        android:layout_alignStart="@+id/LoginPasswordTeacher"
+        android:layout_below="@+id/LoginPasswordTeacher"
         android:layout_marginTop="70dp"
         android:text="Sign in" />
 </RelativeLayout>
