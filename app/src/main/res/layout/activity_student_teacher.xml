@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
+    android:gravity="center"
     android:orientation="vertical">
 
 
     <ImageView
-        android:layout_width="232dp"
-        android:layout_height="258dp"
+        android:layout_width="199dp"
+        android:layout_height="229dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="31dp"
+        android:background="@null"
+        android:onClick="teacherLogin"
         android:src="@drawable/teacher"
-        android:onClick="teacherLogin"/>
-
+        app:layout_constraintBottom_toTopOf="@+id/imageView5" />
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="263dp"
+        android:id="@+id/imageView5"
+        android:layout_width="218dp"
+        android:layout_height="225dp"
         android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:onClick="studentLogin"
         android:padding="8dp"
-        android:src="@drawable/student"
-        android:onClick="studentLogin"/>
+        android:src="@drawable/student" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets Start!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="visible" />
 
 
 </LinearLayout>
