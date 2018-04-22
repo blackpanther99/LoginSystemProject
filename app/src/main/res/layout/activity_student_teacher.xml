@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -36,7 +36,8 @@
         android:layout_height="wrap_content"
         android:text="Lets Start!"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:visibility="visible" />
+        android:visibility="visible"
+        tools:visibility="visible" />
 
 
 </LinearLayout>
